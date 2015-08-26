@@ -7,7 +7,7 @@ import keyring
 import json
 if "win32" in sys.platform:
     import colorama
-    colorama.init()
+    colorama.init(convert=True)
 import re
 import tempfile
 import subprocess
